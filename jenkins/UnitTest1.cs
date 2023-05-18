@@ -13,7 +13,7 @@ namespace jenkins
         public void sample()
         {
             IWebDriver driver=new ChromeDriver();
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             driver.Close(); 
         }
     }
